@@ -1,0 +1,29 @@
+body{
+	background-color: #00b2cc;
+	margin: 0;
+}
+
+
+
+#err h1{
+	color: white;
+}
+
+#err h3{
+	color: white;
+}
+
+#err link{
+	display: inline-block;
+}
+
+
+#err a{
+	color: white;
+	text-decoration: none;
+}
+
+#err a:hover{
+	color: white;
+	text-decoration: underline;
+}

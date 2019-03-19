@@ -1,0 +1,162 @@
+body{
+	background-color: #00b2cc;
+	margin: 0;
+}
+
+
+header{
+	position: fixed;
+	width: 100%;
+	height: auto;
+	background-color: #423d3d;
+	z-index: 2;
+	padding: 2px;
+}
+
+header div{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #423d3d;
+	z-index: 2;
+	padding: 10px;
+}
+
+header div input{
+	border-radius: 5px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 20px;
+	margin-top: 8px;
+	margin-right: 50px;
+}
+
+header div img{
+	margin-top: 10px;
+	margin-right: 250px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+#book{
+	margin-top: 100px;
+	margin-left: 800px;
+	width: 50px;
+	height: 50px;
+}
+
+
+#user{
+	height: 100%;
+	position: fixed;
+	width: 250px;
+	background-color: white;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+#user img{
+	width: 50px;
+	height: 50px;
+	margin-top: 50px;
+}
+
+#user ul{
+	list-style-image: url('https://img.atwikiimg.com/www40.atwiki.jp/fujikoffujio/attach/1/488/0pticon-f07.gif');
+}
+
+#user a:link {
+	text-decoration: none;
+	color: gray;
+	background-color: transparent;
+}
+
+#user a:visited{
+	text-decoration: none;
+	color: gray;
+	background-color: transparent;
+}
+
+#user a:hover{
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+#user ul li{
+	margin-top: 2px;
+}
+
+section{
+	margin-left: 350px;
+	background-color: white;
+	height: 1000px;
+	width: 50%;
+	border-radius: 5px;
+}
+
+
+#posting{
+	background-color: white;
+	width: 600px;
+	height: 400px;
+	max-height: 1500px;
+	margin-left: 500px;
+	border-radius: 20px;
+	padding: 30px;
+	position: relative;
+}
+
+#postinggone{
+	background-color: transparent;
+	width: 600px;
+	height: 400px;
+	max-height: 1500px;
+	margin-left: 500px;
+	border-radius: 20px;
+	padding: 30px;
+	position: relative;
+}
+
+#postinggone h3{
+	color: white;
+}
+
+#postinggone a:link{
+	text-decoration: none;
+}
+
+#postinggone a:hover{
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+
+
+
+#writer{
+	display: inline-block;
+}
+
+#delete{
+	position: absolute;
+	bottom: 0;
+	border-radius: 50%;
+	margin-bottom: 20px;
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+#delete img{
+	margin-top: 5px;
+	height: 30px;
+	width: 30px;
+}

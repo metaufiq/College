@@ -1,0 +1,105 @@
+body{
+	background-color: #00b2cc;
+	margin: 0;
+	z-index: 0;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	height: auto;
+	background-color: #423d3d;
+	z-index: 2;
+	padding: 2px;
+}
+
+header div{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #423d3d;
+	z-index: 2;
+	padding: 10px;
+}
+
+header div input{
+	border-radius: 5px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	height: 20px;
+	margin-top: 8px;
+	margin-right: 50px;
+}
+
+header div img{
+	margin-top: 10px;
+	margin-right: 250px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+}
+
+#book{
+	margin-top: 100px;
+	margin-left: 800px;
+	width: 50px;
+	height: 50px;
+}
+
+#user{
+	height: 100%;
+	position: fixed;
+	width: 250px;
+	background-color: white;
+	padding: 15px;
+	border-radius: 5px;
+	z-index: 2;
+}
+
+#user img{
+	margin-top: 50px;
+	width: 50px;
+	height: 50px;
+}
+
+#user ul{
+	list-style-image: url('https://img.atwikiimg.com/www40.atwiki.jp/fujikoffujio/attach/1/488/0pticon-f07.gif');
+}
+
+#user a:link {
+	text-decoration: none;
+	color: gray;
+	background-color: transparent;
+}
+
+#user a:visited{
+	text-decoration: none;
+	color: gray;
+	background-color: transparent;
+}
+
+#user a:hover{
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+#user ul li{
+	margin-top: 2px;
+}
+
+#commentList{
+	margin-left: 370px;
+	background-color: white;
+	height: 50px;
+	width: 50%;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding: 10px;
+}

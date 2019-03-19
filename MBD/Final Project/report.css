@@ -1,0 +1,35 @@
+body{
+	background-color: #00b2cc;
+	margin: 0;
+}
+
+img{
+	margin-top: 100px;
+	width: 100px;
+	height: 100px;
+}
+h3{
+	color: white;
+}
+h2{
+	color: red;
+}
+
+a:link{
+	color:white;
+	text-decoration: none;
+	font-size:  20px;
+}
+
+a:visited{
+	color: white;
+	text-decoration: none;
+	font-size:  20px;
+}
+
+a:hover{
+	color: white;
+	text-decoration: underline;
+	font-size:  20px;
+
+}

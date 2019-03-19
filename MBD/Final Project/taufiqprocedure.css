@@ -1,0 +1,136 @@
+body{
+	background-color: black;
+	margin: 0;
+	position: relative;
+}
+
+header h1{
+	color: white;
+}
+
+#toolbar{
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	background-color: #0d0d0d;
+	padding: 1px;
+}
+
+#toolbar header{
+	width: 100%;
+	height: 10%;
+	background-color: red;
+	text-align: center;
+	padding-top:  10px;
+}
+#toolbar header h3{
+	color: white;
+	display: block;
+}
+
+#toolbar h4{
+	color: red;
+	
+}
+
+#toolbar li{
+	font-size: 10px;
+	color: white;
+}
+
+section{
+	background:transparent;
+	height: 1000px;
+	width: 1210px;
+	margin-left: 250px;
+}
+
+section h3{
+	color: white;
+	display: inline-block;
+	margin-top: 250px;
+}
+
+section h5{
+	color: white;
+
+}
+
+form textarea{
+	width: 500px;
+	height: 100px;
+	margin-top: 250px;
+}
+
+form button{
+	background: transparent;
+	border: none;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+form button:hover{
+	text-decoration: underline;
+}
+
+#bottom{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	background: #111111;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#bottom a:link{
+	text-decoration: none;
+	color: white;
+}
+
+#bottom a:visited{
+	text-decoration: none;
+	color: white;
+}
+
+#bottom a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+#success{
+	width: 30%;
+	border: 2px solid #33ff33;
+	height: auto;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	background-color: #99ff99;
+	text-align: left;
+	font-size: 10px;
+}
+
+#fail{
+	width: 30%;
+	border: 2px solid #e60000;
+	height: auto;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	background-color: #ff9999;
+	text-align: left;
+	font-size: 10px;
+}
+
+#err h1{
+	color: red;
+}
+
+#err h3{
+	color: white;
+}
+
+#err link{
+	display: inline-block;
+}
