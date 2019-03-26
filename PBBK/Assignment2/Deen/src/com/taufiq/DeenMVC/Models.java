@@ -2,7 +2,6 @@ package com.taufiq.DeenMVC;
 
 public class Models {
 	private String name;
-
 	
 	public Models() {
 		super();

@@ -9,7 +9,7 @@
 <title>HomePage</title>
 </head>
 <body>
-	<form:form method="POST" action="/Java-Spring-MVC/output_name" modelAttribute="models">
+	<form:form method="POST" action="output_name" modelAttribute="models">
 		<table>
 			<tr>
                 <td><form:label path="name">Give Your Name</form:label></td>
