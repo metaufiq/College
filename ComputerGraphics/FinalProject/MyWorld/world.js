@@ -173,7 +173,7 @@ loaderAudio2.load(
 
 
   renderer = new THREE.WebGLRenderer();
-  renderer.setSize(1280, 720);
+  renderer.setSize(screen.width, screen.height);
 
   var hemiLight = new THREE.HemisphereLight( 0x0000ff, 0x00ff00, 0.6 );
 
